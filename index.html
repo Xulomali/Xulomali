@@ -20,7 +20,30 @@ https://www.tooplate.com/view/2097-pop
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/tooplate-style.css">                               <!-- Templatemo style -->
 
-    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this in a modern browser such as latest version of Chrome or Microsoft Edge.");</script>
+
+
+    <script>
+	document.documentElement.className="js";
+	var supportsCssVars=function(){
+	var e,t=document.createElement("style");
+	return t.innerHTML="root: { --tmp-var: bold; }",
+	document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),
+	t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this in a modern browser such as latest version of Chrome or Microsoft Edge.");
+	
+	const app = document.getElementById('app');
+
+window.onload = function() {
+  document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+  }, false);
+} 
+
+app.addEventListener('click', () => {
+  alert('No esta permitido el click derecho')
+});
+	
+	
+	</script>
     
 </head>
 
@@ -123,8 +146,8 @@ https://www.tooplate.com/view/2097-pop
                                                     <div class="col-12">
                                                         <div class="p-sm-4 p-2 tm-img-container">
                                                             <div class="tm-img-slider" id="tmImgSlider">
-                                                              <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-01-tn.jpg" alt="Image 1" class="img-fluid tm-slider-img"></a>
-                                                              <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-02-tn.jpg" alt="Image 2" class="img-fluid tm-slider-img"></a>
+                                                              <a href="https://www.twitch.tv/languitoxic" class="tm-slider-img-link"><img src="img/emotes/Temazo.png" alt="Image 1" class="img-fluid tm-slider-img"></a>
+                                                              <a href="https://www.twitch.tv/languitoxic" class="tm-slider-img-link"><img src="img/emotes/de-locosv2.png" alt="Image 2" class="img-fluid tm-slider-img"></a>
                                                               <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-03-tn.jpg" alt="Image 3" class="img-fluid tm-slider-img"></a>
                                                               <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-04-tn.jpg" alt="Image 4" class="img-fluid tm-slider-img"></a>
                                                               <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-05-tn.jpg" alt="Image 5" class="img-fluid tm-slider-img"></a>
