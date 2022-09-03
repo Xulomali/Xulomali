@@ -293,10 +293,40 @@ p {
   color: white;
 }
 
+.tm-btn-purple {
+  background-color: #6441a5;
+  color: white;
+}
+
+.tm-btn-purple:hover {
+  background-color: #8974b0;
+  color: white;
+}
+
+.tm-btn-light-blue {
+  background-color: #7289da;
+  color: white;
+}
+
+.tm-btn-light-blue:hover {
+  background-color: #9ca9d9;
+  color: white;
+}
+
+.tm-btn-blue {
+  background-color: #00acee;
+  color: white;
+}
+
+.tm-btn-blue:hover {
+  background-color: #a1dff7;
+  color: white;
+}
+
 .btn {
-  padding: 0.5rem 2.4rem;
-  font-size: 1.2rem;
-  border-radius: 0;
+  padding: 0.5rem 2.2rem;
+  font-size: 1.3rem;
+  border-radius: 20;
 }
 
 .btn-primary {
